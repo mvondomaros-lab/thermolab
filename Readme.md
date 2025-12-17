@@ -1,6 +1,6 @@
 # Thermo Lab
 
-## Environment Setup
+## Environment setup
 
 1. Install [pixi](https://pixi.sh/latest/installation/).
 
@@ -12,26 +12,29 @@ cd thermolab
 pixi install
 ```
 
-3. Launch the notebook:
+3. Launch JupyterLab and open the landing notebook:
 
 ```bash
 pixi run jupyter-lab thermolab.ipynb
 ```
 
-## Using the Notebook Interface
+If JupyterLab starts without opening the notebook automatically, open `thermolab.ipynb` from the file browser.
 
-The notebook consists of executable cells. Each cell contains Python code or explanatory text.
+## Using the notebook interface
 
-- To run a single cell, click the Run button (▶).
-- To run all cells, use the Run All command (≫).
-- You can also press Shift + Enter to execute the current cell.
+The lab consists of Jupyter notebooks made up of executable cells. Cells contain either Python code or explanatory text.
 
-Python code appears throughout the notebook. You do not need programming experience to carry out the calculations; simply execute the cells as instructed. If you are comfortable with Python, you may adapt or extend the examples, including more advanced PySCF workflows.
+- Run the current cell: click **Run** (▶) or press **Shift + Enter**.
+- Run all cells: use **Run All** (≫) from the notebook menu.
 
-Comments within code cells provide guidance:
+You do not need programming experience to complete the lab; execute the cells as instructed. If you are comfortable with Python, you may adapt or extend the examples (for example, to explore more advanced PySCF workflows).
+
+### Code comments
+
+Some code cells include comments to clarify what a block does or what you are expected to change:
 
 ```python
 # This is a comment.
 ```
 
-They do not affect execution and are included to support your progress through the notebook.
+Comments do not affect execution; they are included as guidance.
