@@ -19,22 +19,3 @@ pixi run jupyter-lab thermolab.ipynb
 ```
 
 If JupyterLab starts without opening the notebook automatically, open `thermolab.ipynb` from the file browser.
-
-## Using the notebook interface
-
-The lab consists of Jupyter notebooks made up of executable cells. Cells contain either Python code or explanatory text.
-
-- Run the current cell: click **Run** (▶) or press **Shift + Enter**.
-- Run all cells: use **Run All** (≫) from the notebook menu.
-
-You do not need programming experience to complete the lab; execute the cells as instructed. If you are comfortable with Python, you may adapt or extend the examples (for example, to explore more advanced PySCF workflows).
-
-### Code comments
-
-Some code cells include comments to clarify what a block does or what you are expected to change:
-
-```python
-# This is a comment.
-```
-
-Comments do not affect execution; they are included as guidance.
